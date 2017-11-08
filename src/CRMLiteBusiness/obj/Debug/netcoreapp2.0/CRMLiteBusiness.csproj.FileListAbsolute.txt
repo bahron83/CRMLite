@@ -1,0 +1,9 @@
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteBusiness\bin\Debug\netcoreapp2.0\CRMLiteBusiness.deps.json
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteBusiness\bin\Debug\netcoreapp2.0\CRMLiteBusiness.dll
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteBusiness\obj\Debug\netcoreapp2.0\CRMLiteBusiness.csprojResolveAssemblyReference.cache
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteBusiness\obj\Debug\netcoreapp2.0\CRMLiteBusiness.csproj.CoreCompileInputs.cache
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteBusiness\obj\Debug\netcoreapp2.0\CRMLiteBusiness.AssemblyInfoInputs.cache
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteBusiness\obj\Debug\netcoreapp2.0\CRMLiteBusiness.AssemblyInfo.cs
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteBusiness\bin\Debug\netcoreapp2.0\CRMLiteBusiness.pdb
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteBusiness\obj\Debug\netcoreapp2.0\CRMLiteBusiness.dll
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteBusiness\obj\Debug\netcoreapp2.0\CRMLiteBusiness.pdb

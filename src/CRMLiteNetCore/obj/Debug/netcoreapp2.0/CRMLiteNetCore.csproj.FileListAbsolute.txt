@@ -1,0 +1,11 @@
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteNetCore\obj\Debug\netcoreapp2.0\CRMLiteNetCore.csprojResolveAssemblyReference.cache
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteNetCore\obj\Debug\netcoreapp2.0\CRMLiteNetCore.csproj.CoreCompileInputs.cache
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteNetCore\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteNetCore\obj\Debug\netcoreapp2.0\CRMLiteNetCore.AssemblyInfoInputs.cache
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteNetCore\obj\Debug\netcoreapp2.0\CRMLiteNetCore.AssemblyInfo.cs
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteNetCore\bin\Debug\netcoreapp2.0\CRMLiteNetCore.deps.json
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteNetCore\bin\Debug\netcoreapp2.0\CRMLiteNetCore.runtimeconfig.json
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteNetCore\bin\Debug\netcoreapp2.0\CRMLiteNetCore.runtimeconfig.dev.json
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteNetCore\bin\Debug\netcoreapp2.0\CRMLiteNetCore.dll
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteNetCore\bin\Debug\netcoreapp2.0\CRMLiteBusiness.dll
+C:\Users\bahro\source\repos\CRMLite\src\CRMLiteNetCore\bin\Debug\netcoreapp2.0\CRMLiteBusiness.pdb
