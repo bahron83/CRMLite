@@ -8,7 +8,6 @@ import {ErrorInfo} from "../common/errorDisplay";
 import {slideIn, slideInLeft} from "../common/animations";
 import { UserInfo } from "../business/userInfo";
 
-//import * as $ from 'jquery';
 declare var $:any;
 declare var toastr:any;
 
@@ -38,7 +37,7 @@ export class AlbumList implements OnInit {
     this.config.searchText = "";
 
     // ??? Non-DOM way to do this?
-    setTimeout(() => {
+    setTimeout(() => {        
       $("#SearchBox").focus();
     },200);
   }
@@ -65,7 +64,10 @@ export class AlbumList implements OnInit {
         // reset scroll position of the list
         setTimeout(()=> $("#MainView").scrollTop(this.albumService.listScrollPos), 100);
       }, err => {
-        this.error.error(err);
+        if (!err.message)
+          this.error.error("Unable to load albums right now. Most likely the server is not responding.");
+        else
+          this.error.error(err);
         this.busy = false;
       });
   }

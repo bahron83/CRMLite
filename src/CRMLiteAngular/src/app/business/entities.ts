@@ -1,4 +1,5 @@
-import {Injectable, InjectionToken} from '@angular/core';
+import {Injectable, OnInit} from '@angular/core';
+declare var $:any;
 
 @Injectable()
 export class Album {
@@ -26,6 +27,11 @@ export class Artist {
     Albums:Album[] = [];
 }
 
+@Injectable()
+export class ArtistResult {
+    Artist: Artist = null;
+    Albums: Album[] = [];
+}
 
 @Injectable()
 export class Track {
@@ -40,4 +46,7 @@ export class Track {
 @Injectable()
 export class ApplicationStats {
     OsPlatform:string = null;
+    AngularVersion = "Unknown"; 
+    AspDotnetVersion = "Unknown";  
+
 }

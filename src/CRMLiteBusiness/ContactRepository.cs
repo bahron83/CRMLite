@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CRMLiteBusiness
 {
-    class ContactRepository : EntityFrameworkRepository<CRMLiteContext, Contact>
+    public class ContactRepository : EntityFrameworkRepository<CRMLiteContext, Contact>
     {
         public ContactRepository(CRMLiteContext context) : base(context) { }
 

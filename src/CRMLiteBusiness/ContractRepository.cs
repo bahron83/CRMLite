@@ -9,7 +9,7 @@ using Westwind.Utilities;
 
 namespace CRMLiteBusiness
 {
-    class ContractRepository : EntityFrameworkRepository<CRMLiteContext, Contract>
+    public class ContractRepository : EntityFrameworkRepository<CRMLiteContext, Contract>
     {
         public ContractRepository(CRMLiteContext context) : base(context) { }
 

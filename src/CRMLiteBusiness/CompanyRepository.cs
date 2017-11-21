@@ -75,7 +75,7 @@ namespace CRMLiteBusiness
                 .ToListAsync();
         }
 
-        public async Task<Company> SaveAlbum(Company postedCompany)
+        public async Task<Company> SaveCompany(Company postedCompany)
         {
             int id = postedCompany.CompanyID;
 
@@ -160,6 +160,33 @@ namespace CRMLiteBusiness
             }
         }
 
+        public async Task<List<Contact>> GetContactsForCompany(int companyId)
+        {
+            return await Context.Contacts
+                .Include(c => c.Activities)
+                .Include(c => c.Company)
+                .Where(c => c.CompanyID == companyId)
+                .ToListAsync();
+        }
+
+        public async Task<List<CompanyLookupItem>> CompanyLookup(string search = null)
+        {
+            if (string.IsNullOrEmpty(search))
+                return new List<CompanyLookupItem>();
+
+            var repo = new ContactRepository(Context);
+
+            var term = search.ToLower();
+            return await repo.Context.Companies
+                .Where(c => c.Name.ToLower().StartsWith(term))
+                .Select(c => new CompanyLookupItem
+                {
+                    name = c.Name,
+                    id = c.CompanyID
+                })
+                .ToListAsync();
+        }
+
         protected override bool OnValidate(Company entity)
         {
             if (entity == null)
@@ -176,6 +203,12 @@ namespace CRMLiteBusiness
                 //ValidationErrors.Add("Album must have at least one song associated.");
 
             return ValidationErrors.Count < 1;
+        }
+
+        public class CompanyLookupItem
+        {
+            public string name { get; set; }
+            public int id { get; set; }
         }
     }
 }
